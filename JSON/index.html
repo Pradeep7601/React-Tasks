@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>School Details</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">School Information</h1>
+
+    <div id="school-details" class="card school-card"></div>
+
+    <div class="flex-box">
+      <div class="left-panel">
+        <label for="student-select" class="label">Select Student ID:</label>
+        <select id="student-select" class="dropdown">
+          <option value="">-- Select --</option>
+        </select>
+      </div>
+
+      <div class="right-panel">
+        <h3 class="subtitle">Student Details</h3>
+        <div id="student-details" class="card student-card"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

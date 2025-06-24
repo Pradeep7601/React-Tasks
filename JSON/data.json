@@ -1,0 +1,75 @@
+{
+    "school_name": "Billionaire's Club",
+
+    "class": "25th Edition",
+
+    "info": {
+        "president": "Piyush Kumar",
+
+        "address": "Scranton, Pennsylvania",
+
+        "contacts": {
+            "email": "billionare@e.com",
+
+            "tel": "9876543210"
+        }
+    },
+
+    "students": [{
+            "id": "A1",
+
+            "name": "Prachi",
+
+            "grade": {
+                "math": 60,
+
+                "physics": 66,
+
+                "chemistry": 61
+            }
+        },
+        {
+            "id": "A2",
+
+            "name": "Yash",
+
+            "grade": {
+                "math": 89,
+
+                "physics": 76,
+
+                "chemistry": 51
+            }
+        },
+        {
+            "id": "A3",
+
+            "name": "Ankesh",
+
+            "grade": {
+                "math": 79,
+
+                "physics": 90,
+
+                "chemistry": 78
+            }
+        },
+        {
+            "id": "A4",
+
+            "name": "Nidhi",
+
+            "grade": {
+                "math": 94,
+
+                "physics": 99,
+
+                "chemistry": 100,
+
+                "biology": 99,
+
+                "English": 85
+            }
+        }
+    ]
+}
