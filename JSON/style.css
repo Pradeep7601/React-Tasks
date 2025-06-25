@@ -1,67 +1,40 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
-  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
   color: #333;
 }
 
-.container {
-  max-width: 900px;
-  margin: auto;
-}
-
-.title {
-  text-align: center;
-  margin-bottom: 30px;
+h1,
+h3 {
   color: #2c3e50;
-}
-
-.subtitle {
-  margin-bottom: 15px;
-  color: #34495e;
-}
-
-.flex-box {
-  display: flex;
-  gap: 30px;
-  margin-top: 30px;
-  flex-wrap: wrap;
-}
-
-.left-panel,
-.right-panel {
-  flex: 1;
-  min-width: 250px;
-}
-
-.label {
-  font-weight: 600;
-  display: block;
   margin-bottom: 10px;
 }
 
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin: 20px 0 5px;
+}
+
 .dropdown {
-  padding: 10px;
   width: 100%;
+  padding: 8px;
   font-size: 16px;
-  border-radius: 5px;
   border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .card {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
-}
-
-.school-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
